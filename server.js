@@ -1,5 +1,11 @@
 var express = require('express'),
-    Sequelize = require('sequelize');
+    Sequelize = require('sequelize'),
+    redis = require("redis"),
+    redis_cli = redis.createClient();
+
+client.on("error", function (err) {
+    console.log("Error " + err);
+});
 
 var sequelize = new Sequelize('postgres://node:node@52.28.17.216:5432/node');
 var Register = sequelize.define('user_status',{
@@ -26,7 +32,9 @@ app.get('/update-status/:stat', function(req,res){
     //    .catch(function(err){
     //        res.send(err);
     //    });
-    res.send('OK');
+    redis_cli.set('abc:123', req.params.stat, function(){
+        res.send('OK');
+    });
 });
 
 app.listen(8001);

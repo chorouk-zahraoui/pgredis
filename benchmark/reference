@@ -1,0 +1,35 @@
+Server Software:
+Server Hostname:        localhost
+Server Port:            8001
+
+Document Path:          /update-status/12
+Document Length:        2 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   3.540 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      1950000 bytes
+HTML transferred:       20000 bytes
+Requests per second:    2824.88 [#/sec] (mean)
+Time per request:       353.997 [ms] (mean)
+Time per request:       0.354 [ms] (mean, across all concurrent requests)
+Transfer rate:          537.94 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  176 536.0      0    3004
+Processing:     8   86  58.6     83     499
+Waiting:        8   86  58.6     83     499
+Total:         41  262 562.9     84    3485
+
+Percentage of the requests served within a certain time (ms)
+  50%     84
+  66%     92
+  75%     96
+  80%    101
+  90%   1062
+  95%   1102
+  98%   3102
+  99%   3114
+ 100%   3485 (longest request)
