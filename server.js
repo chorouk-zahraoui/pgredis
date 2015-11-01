@@ -3,7 +3,7 @@ var express = require('express'),
     redis = require("redis"),
     redis_cli = redis.createClient();
 
-client.on("error", function (err) {
+redis_cli.on("error", function (err) {
     console.log("Error " + err);
 });
 
