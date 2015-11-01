@@ -1,0 +1,434 @@
+    at Socket.<anonymous> (C:\Users\Sally\IdeaProjects\pgredis\node_modules\pg\lib\connection.js:109:12)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:529:20)
+Unhandled rejection SequelizeDatabaseError: relation "user_statuses" does not exist
+    at Query.formatError (C:\Users\Sally\IdeaProjects\pgredis\node_modules\sequelize\lib\dialects\postgres\query.js:443:14)
+    at null.<anonymous> (C:\Users\Sally\IdeaProjects\pgredis\node_modules\sequelize\lib\dialects\postgres\query.js:118:19)
+    at emit (events.js:107:17)
+    at Query.handleError (C:\Users\Sally\IdeaProjects\pgredis\node_modules\pg\lib\query.js:108:8)
+    at null.<anonymous> (C:\Users\Sally\IdeaProjects\pgredis\node_modules\pg\lib\client.js:171:26)
+    at emit (events.js:107:17)
+    at Socket.<anonymous> (C:\Users\Sally\IdeaProjects\pgredis\node_modules\pg\lib\connection.js:109:12)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:529:20)
+crashing child
+Starting child process with 'node server.js'
+Executing (default): INSERT INTO "user_statuses" ("id","ts","status","updatedAt","createdAt") VALUES (DEFAULT,'2015-10-31 16:11:45.000 +00:00','12','2015-10-31 16:11:46.002 +00:00','
+2015-10-31 16:11:46.002 +00:00') RETURNING *;
+Unhandled rejection SequelizeDatabaseError: relation "user_statuses" does not exist
+    at Query.formatError (C:\Users\Sally\IdeaProjects\pgredis\node_modules\sequelize\lib\dialects\postgres\query.js:443:14)
+    at null.<anonymous> (C:\Users\Sally\IdeaProjects\pgredis\node_modules\sequelize\lib\dialects\postgres\query.js:118:19)
+    at emit (events.js:107:17)
+    at Query.handleError (C:\Users\Sally\IdeaProjects\pgredis\node_modules\pg\lib\query.js:108:8)
+    at null.<anonymous> (C:\Users\Sally\IdeaProjects\pgredis\node_modules\pg\lib\client.js:171:26)
+    at emit (events.js:107:17)
+    at Socket.<anonymous> (C:\Users\Sally\IdeaProjects\pgredis\node_modules\pg\lib\connection.js:109:12)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:529:20)
+Unhandled rejection SequelizeDatabaseError: relation "user_statuses" does not exist
+    at Query.formatError (C:\Users\Sally\IdeaProjects\pgredis\node_modules\sequelize\lib\dialects\postgres\query.js:443:14)
+    at null.<anonymous> (C:\Users\Sally\IdeaProjects\pgredis\node_modules\sequelize\lib\dialects\postgres\query.js:118:19)
+    at emit (events.js:107:17)
+    at Query.handleError (C:\Users\Sally\IdeaProjects\pgredis\node_modules\pg\lib\query.js:108:8)
+    at null.<anonymous> (C:\Users\Sally\IdeaProjects\pgredis\node_modules\pg\lib\client.js:171:26)
+    at emit (events.js:107:17)
+    at Socket.<anonymous> (C:\Users\Sally\IdeaProjects\pgredis\node_modules\pg\lib\connection.js:109:12)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:529:20)
+crashing child
+Starting child process with 'node server.js'
+Executing (default): INSERT INTO "user_statuses" ("id","ts","status","updatedAt","createdAt") VALUES (DEFAULT,'2015-10-31 16:15:25.000 +00:00','12','2015-10-31 16:15:25.311 +00:00','
+2015-10-31 16:15:25.311 +00:00') RETURNING *;
+Unhandled rejection SequelizeDatabaseError: relation "user_statuses" does not exist
+    at Query.formatError (C:\Users\Sally\IdeaProjects\pgredis\node_modules\sequelize\lib\dialects\postgres\query.js:443:14)
+    at null.<anonymous> (C:\Users\Sally\IdeaProjects\pgredis\node_modules\sequelize\lib\dialects\postgres\query.js:118:19)
+    at emit (events.js:107:17)
+    at Query.handleError (C:\Users\Sally\IdeaProjects\pgredis\node_modules\pg\lib\query.js:108:8)
+    at null.<anonymous> (C:\Users\Sally\IdeaProjects\pgredis\node_modules\pg\lib\client.js:171:26)
+    at emit (events.js:107:17)
+    at Socket.<anonymous> (C:\Users\Sally\IdeaProjects\pgredis\node_modules\pg\lib\connection.js:109:12)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:529:20)
+crashing child
+Starting child process with 'node server.js'
+Executing (default): INSERT INTO "user_statuses" ("id","ts","status","updatedAt","createdAt") VALUES (DEFAULT,'2015-10-31 16:18:41.000 +00:00','12','2015-10-31 16:18:41.702 +00:00','
+2015-10-31 16:18:41.702 +00:00') RETURNING *;
+Executing (default): INSERT INTO "user_statuses" ("id","ts","status","updatedAt","createdAt") VALUES (DEFAULT,'2015-10-31 16:18:47.000 +00:00','12','2015-10-31 16:18:47.512 +00:00','
+2015-10-31 16:18:47.512 +00:00') RETURNING *;
+crashing child
+Starting child process with 'node server.js'
+Executing (default): INSERT INTO "user_statuses" ("id","ts","status","updatedAt","createdAt") VALUES (DEFAULT,'2015-10-31 16:19:42.000 +00:00','12','2015-10-31 16:19:42.874 +00:00','
+2015-10-31 16:19:42.874 +00:00') RETURNING *;
+Unhandled rejection SequelizeDatabaseError: relation "user_statuses" does not exist
+    at Query.formatError (C:\Users\Sally\IdeaProjects\pgredis\node_modules\sequelize\lib\dialects\postgres\query.js:443:14)
+    at null.<anonymous> (C:\Users\Sally\IdeaProjects\pgredis\node_modules\sequelize\lib\dialects\postgres\query.js:118:19)
+    at emit (events.js:107:17)
+    at Query.handleError (C:\Users\Sally\IdeaProjects\pgredis\node_modules\pg\lib\query.js:108:8)
+    at null.<anonymous> (C:\Users\Sally\IdeaProjects\pgredis\node_modules\pg\lib\client.js:171:26)
+    at emit (events.js:107:17)
+    at Socket.<anonymous> (C:\Users\Sally\IdeaProjects\pgredis\node_modules\pg\lib\connection.js:109:12)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:529:20)
+crashing child
+Starting child process with 'node server.js'
+TypeError: undefined is not a function
+    at execute (C:\Users\Sally\IdeaProjects\pgredis\server.js:34:10)
+    at C:\Users\Sally\IdeaProjects\pgredis\server.js:19:5
+    at Layer.handle [as handle_request] (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:277:22
+    at param (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:349:14)
+    at param (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:271:10)
+    at expressInit (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\middleware\init.js:33:5)
+    at Layer.handle [as handle_request] (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:330:12)
+Executing (default): INSERT INTO "user_statuses" ("id","ts","status","updatedAt","createdAt") VALUES (DEFAULT,'2015-10-31 16:31:34.000 +00:00','12','2015-10-31 16:31:34.580 +00:00','
+2015-10-31 16:31:34.580 +00:00') RETURNING *;
+Executing (default): INSERT INTO "user_statuses" ("id","ts","status","updatedAt","createdAt") VALUES (DEFAULT,'2015-10-31 16:31:38.000 +00:00','12','2015-10-31 16:31:38.424 +00:00','
+2015-10-31 16:31:38.424 +00:00') RETURNING *;
+TypeError: undefined is not a function
+    at execute (C:\Users\Sally\IdeaProjects\pgredis\server.js:34:10)
+    at C:\Users\Sally\IdeaProjects\pgredis\server.js:19:5
+    at Layer.handle [as handle_request] (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:277:22
+    at param (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:349:14)
+    at param (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:271:10)
+    at expressInit (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\middleware\init.js:33:5)
+    at Layer.handle [as handle_request] (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:330:12)
+crashing child
+Starting child process with 'node server.js'
+ready
+Executing (default): INSERT INTO "user_statuses" ("id","ts","status","updatedAt","createdAt") VALUES (DEFAULT,'2015-10-31 16:34:47.000 +00:00','12','2015-10-31 16:34:47.655 +00:00','
+2015-10-31 16:34:47.655 +00:00') RETURNING *;
+TypeError: undefined is not a function
+    at execute (C:\Users\Sally\IdeaProjects\pgredis\server.js:38:10)
+    at C:\Users\Sally\IdeaProjects\pgredis\server.js:23:5
+    at Layer.handle [as handle_request] (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:277:22
+    at param (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:349:14)
+    at param (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:271:10)
+    at expressInit (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\middleware\init.js:33:5)
+    at Layer.handle [as handle_request] (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Sally\IdeaProjects\pgredis\node_modules\express\lib\router\index.js:330:12)
+crashing child
+Starting child process with 'node server.js'
+ready
+Executing (default): INSERT INTO "user_statuses" ("id","ts","status","updatedAt","createdAt") VALUES (DEFAULT,'2015-10-31 16:36:17.000 +00:00','12','2015-10-31 16:36:17.762 +00:00','
+2015-10-31 16:36:17.762 +00:00') RETURNING *;
+Executing (default): INSERT INTO "user_statuses" ("id","ts","status","updatedAt","createdAt") VALUES (DEFAULT,'2015-10-31 16:36:25.000 +00:00','12','2015-10-31 16:36:25.663 +00:00','
+2015-10-31 16:36:25.663 +00:00') RETURNING *;
+crashing child
+Starting child process with 'node server.js'
+ready
+{ options:
+   { dialect: 'postgres',
+     dialectModulePath: null,
+     host: '52.28.17.216',
+     protocol: 'tcp',
+     define: {},
+     query: {},
+     sync: {},
+     timezone: '+00:00',
+     logging: [Function],
+     omitNull: false,
+     native: false,
+     replication: false,
+     ssl: undefined,
+     pool: {},
+     quoteIdentifiers: true,
+     hooks: {},
+     isolationLevel: 'REPEATABLE READ',
+     databaseVersion: '9.3.10',
+     typeValidation: false,
+     port: '5432' },
+  config:
+   { database: 'node',
+     username: 'node',
+     password: 'node',
+     host: '52.28.17.216',
+     port: '5432',
+     pool:
+      { max: 5,
+        min: 0,
+        idle: 10000,
+        handleDisconnects: true,
+        validate: [Function] },
+     protocol: 'tcp',
+     native: false,
+     ssl: undefined,
+     replication: false,
+     dialectModulePath: null,
+     keepDefaultTimezone: undefined,
+     dialectOptions: undefined,
+     user: 'node' },
+  dialect:
+   { sequelize: [Circular],
+     connectionManager:
+      { sequelize: [Circular],
+        config: [Object],
+        dialect: [Circular],
+        onProcessExit: [Function],
+        lib: [Object],
+        pool: [Object],
+        versionPromise: undefined },
+     QueryGenerator:
+      { options: [Object],
+        addSchema: [Function],
+        dropSchema: [Function],
+        createTableQuery: [Function],
+        versionQuery: [Function],
+        describeTableQuery: [Function],
+        dropTableQuery: [Function],
+        renameTableQuery: [Function],
+        showTablesQuery: [Function],
+        addColumnQuery: [Function],
+        removeColumnQuery: [Function],
+        changeColumnQuery: [Function],
+        renameColumnQuery: [Function],
+        insertQuery: [Function],
+        bulkInsertQuery: [Function],
+        updateQuery: [Function],
+        upsertQuery: [Function],
+        deleteQuery: [Function],
+        incrementQuery: [Function],
+        nameIndexes: [Function],
+        addIndexQuery: [Function],
+        showIndexesQuery: [Function],
+        removeIndexQuery: [Function],
+        attributesToSQL: [Function],
+        findAutoIncrementField: [Function],
+        quoteTable: [Function],
+        quote: [Function],
+        createTrigger: [Function],
+        dropTrigger: [Function],
+        renameTrigger: [Function],
+        createFunction: [Function],
+        dropFunction: [Function],
+        renameFunction: [Function],
+        quoteIdentifier: [Function],
+        quoteIdentifiers: [Function],
+        escape: [Function],
+        getForeignKeysQuery: [Function],
+        dropForeignKeyQuery: [Function],
+        selectQuery: [Function],
+        joinIncludeQuery: [Function],
+        setAutocommitQuery: [Function],
+        setIsolationLevelQuery: [Function],
+        startTransactionQuery: [Function],
+        deferConstraintsQuery: [Function],
+        setConstraintQuery: [Function],
+        setDeferredQuery: [Function],
+        setImmediateQuery: [Function],
+        commitTransactionQuery: [Function],
+        rollbackTransactionQuery: [Function],
+        addLimitAndOffset: [Function],
+        handleSequelizeMethod: [Function],
+        whereQuery: [Function],
+        whereItemsQuery: [Function],
+        whereItemQuery: [Function],
+        getWhereConditions: [Function],
+        booleanValue: [Function],
+        geometrySelect: [Function],
+        dialect: 'postgres',
+        setSearchPath: [Function],
+        createSchema: [Function],
+        showSchemasQuery: [Function],
+        parseConditionObject: [Function],
+        fn: [Function],
+        exceptionFn: [Function],
+        attributeToSQL: [Function],
+        databaseConnectionUri: [Function],
+        pgEscapeAndQuote: [Function],
+        expandFunctionParamList: [Function: expandFunctionParamList],
+        expandOptions: [Function: expandOptions],
+        decodeTriggerEventType: [Function: decodeTriggerEventType],
+        triggerEventTypeIsConstraint: [Function: triggerEventTypeIsConstraint],
+        expandTriggerEventSpec: [Function: expandTriggerEventSpec],
+        pgEnumName: [Function],
+        pgListEnums: [Function],
+        pgEnum: [Function],
+        pgEnumAdd: [Function],
+        pgEnumDrop: [Function],
+        fromArray: [Function],
+        padInt: [Function],
+        pgDataTypeMapping: [Function],
+        dataTypeMapping: [Function],
+        _dialect: [Circular],
+        sequelize: [Circular],
+        typeValidation: undefined } },
+  models: { user_status: user_status },
+  modelManager: { models: [ user_status ], sequelize: [Circular] },
+  connectionManager:
+   { sequelize: [Circular],
+     config:
+      { database: 'node',
+        username: 'node',
+        password: 'node',
+        host: '52.28.17.216',
+        port: '5432',
+        pool: [Object],
+        protocol: 'tcp',
+        native: false,
+        ssl: undefined,
+        replication: false,
+        dialectModulePath: null,
+        keepDefaultTimezone: undefined,
+        dialectOptions: undefined,
+        user: 'node' },
+     dialect:
+      { sequelize: [Circular],
+        connectionManager: [Circular],
+        QueryGenerator: [Object] },
+     onProcessExit: [Function],
+     lib:
+      { domain: null,
+        _events: {},
+        _maxListeners: undefined,
+        defaults: [Object],
+        Client: [Object],
+        Query: [Object],
+        pools: [Object],
+        Connection: [Object],
+        types: [Object],
+        native: [Getter] },
+     pool:
+      { destroy: [Function],
+        acquire: [Function],
+        borrow: [Function],
+        release: [Function],
+        returnToPool: [Function],
+        drain: [Function],
+        destroyAllNow: [Function],
+        pooled: [Function],
+        getPoolSize: [Function],
+        getName: [Function],
+        availableObjectsCount: [Function],
+        waitingClientsCount: [Function],
+        getMaxPoolSize: [Function] },
+     versionPromise: undefined },
+  importCache: {},
+  test:
+   { '$trackRunningQueries': false,
+     '$runningQueries': 0,
+     trackRunningQueries: [Function],
+     verifyNoRunningQueries: [Function] },
+  queryInterface:
+   { sequelize: [Circular],
+     QueryGenerator:
+      { options: [Object],
+        addSchema: [Function],
+        dropSchema: [Function],
+        createTableQuery: [Function],
+        versionQuery: [Function],
+        describeTableQuery: [Function],
+        dropTableQuery: [Function],
+        renameTableQuery: [Function],
+        showTablesQuery: [Function],
+        addColumnQuery: [Function],
+        removeColumnQuery: [Function],
+        changeColumnQuery: [Function],
+        renameColumnQuery: [Function],
+        insertQuery: [Function],
+        bulkInsertQuery: [Function],
+        updateQuery: [Function],
+        upsertQuery: [Function],
+        deleteQuery: [Function],
+        incrementQuery: [Function],
+        nameIndexes: [Function],
+        addIndexQuery: [Function],
+        showIndexesQuery: [Function],
+        removeIndexQuery: [Function],
+        attributesToSQL: [Function],
+        findAutoIncrementField: [Function],
+        quoteTable: [Function],
+        quote: [Function],
+        createTrigger: [Function],
+        dropTrigger: [Function],
+        renameTrigger: [Function],
+        createFunction: [Function],
+        dropFunction: [Function],
+        renameFunction: [Function],
+        quoteIdentifier: [Function],
+        quoteIdentifiers: [Function],
+        escape: [Function],
+        getForeignKeysQuery: [Function],
+        dropForeignKeyQuery: [Function],
+        selectQuery: [Function],
+        joinIncludeQuery: [Function],
+        setAutocommitQuery: [Function],
+        setIsolationLevelQuery: [Function],
+        startTransactionQuery: [Function],
+        deferConstraintsQuery: [Function],
+        setConstraintQuery: [Function],
+        setDeferredQuery: [Function],
+        setImmediateQuery: [Function],
+        commitTransactionQuery: [Function],
+        rollbackTransactionQuery: [Function],
+        addLimitAndOffset: [Function],
+        handleSequelizeMethod: [Function],
+        whereQuery: [Function],
+        whereItemsQuery: [Function],
+        whereItemQuery: [Function],
+        getWhereConditions: [Function],
+        booleanValue: [Function],
+        geometrySelect: [Function],
+        dialect: 'postgres',
+        setSearchPath: [Function],
+        createSchema: [Function],
+        showSchemasQuery: [Function],
+        parseConditionObject: [Function],
+        fn: [Function],
+        exceptionFn: [Function],
+        attributeToSQL: [Function],
+        databaseConnectionUri: [Function],
+        pgEscapeAndQuote: [Function],
+        expandFunctionParamList: [Function: expandFunctionParamList],
+        expandOptions: [Function: expandOptions],
+        decodeTriggerEventType: [Function: decodeTriggerEventType],
+        triggerEventTypeIsConstraint: [Function: triggerEventTypeIsConstraint],
+        expandTriggerEventSpec: [Function: expandTriggerEventSpec],
+        pgEnumName: [Function],
+        pgListEnums: [Function],
+        pgEnum: [Function],
+        pgEnumAdd: [Function],
+        pgEnumDrop: [Function],
+        fromArray: [Function],
+        padInt: [Function],
+        pgDataTypeMapping: [Function],
+        dataTypeMapping: [Function],
+        _dialect: [Object],
+        sequelize: [Circular],
+        typeValidation: undefined } } }
